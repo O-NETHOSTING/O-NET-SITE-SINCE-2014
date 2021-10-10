@@ -1,0 +1,44 @@
+RewriteEngine on
+ErrorDocument 404                                       "https://o-net.info/404"
+
+
+
+RewriteRule ^home$									    "index.php?page=home"
+RewriteRule ^paypal$									 "index.php?page=paypal"
+RewriteRule ^wow-addons$							    "index.php?page=wow-addons"
+RewriteRule ^contact$									"index.php?page=contact"
+RewriteRule ^contactsend$							    "index.php?page=contactsend"
+RewriteRule ^features$									"index.php?page=features"
+RewriteRule ^tos$									    "index.php?page=tos"
+RewriteRule ^tos$									    "index.php?page=tos"
+RewriteRule ^404$									    "index.php?page=404"
+RewriteRule ^web$									    "index.php?page=web"
+RewriteRule ^webbuy$									    "index.php?page=webbuy"
+RewriteRule ^cs$									    "index.php?page=cs"
+RewriteRule ^csbuy$									    "index.php?page=csbuy"
+RewriteRule ^samp$									    "index.php?page=samp"
+RewriteRule ^sampbuy$									    "index.php?page=sampbuy"
+RewriteRule ^ts3$									    "index.php?page=ts3"
+RewriteRule ^ts3buy$									    "index.php?page=ts3buy"
+
+
+
+#ostalo
+RewriteRule ^images/$                                  "https://o-net.info/404"
+RewriteRule ^img/$                                  	"https://o-net.info/404"
+RewriteRule ^css/$                                  	 "https://o-net.info/404"
+RewriteRule ^js/$                                   	 "https://o-net.info/404"
+RewriteRule ^inc/$                                  	"https://o-net.info/404"
+RewriteRule ^includes/$                                  "https://o-net.info/404"
+RewriteRule ^includes-wow/$                              "https://o-net.info/404"
+RewriteRule ^includes-wow/addons-wow/$                   "https://o-net.info/404"
+RewriteRule ^fonts/$                                  	"https://o-net.info/404"
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+deny from 5.149.69.140
+
+
