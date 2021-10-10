@@ -1,4 +1,5 @@
 # O-NET-SITE-SINCE-2014
+# I dalje bolji od vecine 😂
 
 ![alt text](https://github.com/O-NETHOSTING/O-NET-SITE-SINCE-2014/blob/main/view-images/view%20(0).png)
 ![alt text](https://github.com/O-NETHOSTING/O-NET-SITE-SINCE-2014/blob/main/view-images/view%20(2).png)
